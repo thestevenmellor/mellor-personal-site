@@ -71,6 +71,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          defer
+          data-website-id="dfid_ETZ4uAvDlQ2nGIonfBhT5"
+          data-domain="stevenmellor.com"
+          data-allowed-hostnames="thestevenmellor.thrivecart.com"
+          src="https://datafa.st/js/script.js"
+        />
+      </head>
       <body className={`${geistSans.variable} antialiased`}>{children}</body>
     </html>
   );
