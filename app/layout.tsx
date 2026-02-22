@@ -7,22 +7,22 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://yourdomain.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://thestevenmellor.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Steven Mellor — Building Digital Products",
+    default: "Steven Mellor — Content + AI + Automation = Freedom.",
     template: "%s | Steven Mellor",
   },
   description:
-    "Building digital product businesses and sharing the process. Join thousands learning how to turn knowledge into products that sell themselves.",
+    "Built a 7-figure creator business using marketing, AI, and automation. Now I document every system I build so you can do the same.",
   keywords: [
     "digital products",
     "solopreneur",
-    "online business",
-    "newsletter",
-    "indie maker",
+    "instagram expert",
+    "hybrid creator",
+    "marketing automation",
   ],
   authors: [{ name: "Steven Mellor", url: siteUrl }],
   creator: "Steven Mellor",
@@ -31,9 +31,9 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: siteUrl,
     siteName: "Steven Mellor",
-    title: "Steven Mellor — Building Digital Products",
+    title: "Steven Mellor — Content + AI + Automation = Freedom.",
     description:
-      "Building digital product businesses and sharing the process. Join thousands learning how to turn knowledge into products that sell themselves.",
+      "Built a 7-figure creator business using marketing, AI, and automation. Now I document every system I build so you can do the same.",
     images: [
       {
         url: "/og-image.png",
@@ -45,9 +45,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Steven Mellor — Building Digital Products",
+    title: "Steven Mellor — Content + AI + Automation = Freedom.",
     description:
-      "Building digital product businesses and sharing the process. Join thousands learning how to turn knowledge into products that sell themselves.",
+      "Built a 7-figure creator business using marketing, AI, and automation. Now I document every system I build so you can do the same.",
     creator: "@stevenmellor",
     images: ["/og-image.png"],
   },
@@ -72,13 +72,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script
-          defer
-          data-website-id="dfid_ETZ4uAvDlQ2nGIonfBhT5"
-          data-domain="stevenmellor.com"
-          data-allowed-hostnames="thestevenmellor.thrivecart.com"
-          src="https://datafa.st/js/script.js"
-        />
+      <script
+        defer
+        data-website-id="dfid_ETZ4uAvDlQ2nGIonfBhT5"
+        data-domain="stevenmellor.com"
+        data-allowed-hostnames="thestevenmellor.thrivecart.com,thestevenmellor.com"
+        src="https://datafa.st/js/script.js">
+      </script>
       </head>
       <body className={`${geistSans.variable} antialiased`}>{children}</body>
     </html>
