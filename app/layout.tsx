@@ -79,8 +79,9 @@ export default function RootLayout({
       <script
         defer
         data-website-id="dfid_ETZ4uAvDlQ2nGIonfBhT5"
-        data-domain="stevenmellor.com"
+        data-domain="thestevenmellor.com"
         data-allowed-hostnames="thestevenmellor.thrivecart.com,thestevenmellor.com"
+        data-allow-localhost="true"
         src="https://datafa.st/js/script.js">
       </script>
       </head>
