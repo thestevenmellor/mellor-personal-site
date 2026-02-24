@@ -75,3 +75,9 @@
 .privacy-content a:hover {
   color: #a3a3a3;
 }
+
+.privacy-content hr {
+  border: none;
+  border-top: 1px solid #262626;
+  margin: 32px 0;
+}
