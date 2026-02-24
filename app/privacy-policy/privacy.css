@@ -43,6 +43,13 @@
   color: #fff;
 }
 
+.privacy-content h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 24px 0 8px;
+  color: #d4d4d4;
+}
+
 .privacy-content p {
   font-size: 15px;
   color: #a3a3a3;
