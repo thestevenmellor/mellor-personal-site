@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
     <main className="privacy">
       <header className="privacy-header">
         <a href="/">
-          <Image src="/sjm-brand.png" alt="Steven Mellor" width={48} height={48} />
+          <Image src="/sjm-brand.png" alt="Steven Mellor" width={100} height={100} />
         </a>
       </header>
 
