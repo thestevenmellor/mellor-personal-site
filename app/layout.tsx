@@ -40,10 +40,10 @@ export const metadata: Metadata = {
       "Built a 7-figure creator business using marketing, AI, and automation. Now I document every system I build so you can do the same.",
     images: [
       {
-        url: "/og-image.png",
+        url: "/default-meta-card.png",
         width: 1200,
         height: 630,
-        alt: "Steven Mellor — Building Digital Products",
+        alt: "Steven Mellor — Content + AI + Automation = Freedom.",
       },
     ],
   },
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     description:
       "Built a 7-figure creator business using marketing, AI, and automation. Now I document every system I build so you can do the same.",
     creator: "@stevenmellor",
-    images: ["/og-image.png"],
+    images: ["/default-meta-card.png"],
   },
   robots: {
     index: true,
