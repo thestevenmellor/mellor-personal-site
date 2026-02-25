@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -81,10 +82,21 @@ export default function RootLayout({
         data-website-id="dfid_ETZ4uAvDlQ2nGIonfBhT5"
         data-domain="thestevenmellor.com"
         data-allowed-hostnames="thestevenmellor.thrivecart.com,thestevenmellor.com"
-        data-allow-localhost="true"
         src="https://datafa.st/js/script.js">
       </script>
       </head>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-LHW9TT3CX6"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-LHW9TT3CX6');
+        `}
+      </Script>
       <body className={`${geistSans.variable} antialiased`}>{children}</body>
     </html>
   );
